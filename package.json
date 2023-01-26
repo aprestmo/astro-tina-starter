@@ -1,0 +1,24 @@
+{
+  "name": "astro-tina-starter",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "tina": "tinacms dev -c \"astro dev\"",
+    "deploy": "aws s3 cp dist/ s3://rl-staticprojects-nhst-dn-staticprojects-saeghiereetah1va/tina/ --recursive --profile nhst"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^0.15.0",
+    "@astrojs/rss": "^2.1.0",
+    "@astrojs/sitemap": "^1.0.0",
+    "@astrojs/vue": "^2.0.0",
+    "@tinacms/cli": "^0.61.24",
+    "astro": "^2.0.1",
+    "tinacms": "^0.69.18",
+    "vue": "^3.2.45"
+  }
+}
